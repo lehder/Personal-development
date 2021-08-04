@@ -306,13 +306,7 @@ figure {
     border-radius: 10px;
     object-fit: cover
 }
-.youtube-video {
-    width: 465px;
-    border-radius: 10px;
-}
-.flexible-video {
-    background: transparent;
-}
+
 .event-detail {
     margin: 20px 0px;
     margin-top: -40px;
@@ -507,7 +501,7 @@ figure {
   height: 0;
   padding-top: 56.25%;
   /*calculo de h*100/w= 56.25% */
-  background: blue;
+  /*background: blue;*/
   position: relative;
 }
 
