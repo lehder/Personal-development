@@ -310,6 +310,9 @@ figure {
     width: 97%;
     border-radius: 10px;
 }
+.flexible-video {
+    background: transparent;
+}
 .event-detail {
     margin: 20px 0px;
     margin-top: -40px;
