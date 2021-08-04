@@ -491,7 +491,7 @@ figure {
     padding-top: 56.25%;
     /*calculo de h*100/w= 56.25% */
     /*background: transparent;*/
-    position: relative;
+    /*position: relative;*/
 }
 
 .youtube-video {
@@ -517,7 +517,7 @@ figure {
   padding-top: 56.25%;
   /*calculo de h*100/w= 56.25% */
   /*background: transparent;*/
-  position: relative;
+  /*position: relative;*/
 }
 
 @media screen and (max-width: 767px) {
