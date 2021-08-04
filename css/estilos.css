@@ -306,6 +306,10 @@ figure {
     border-radius: 10px;
     object-fit: cover
 }
+.event .youtube-video .html-video {
+    width: 97%;
+    border-radius: 10px;
+}
 .event-detail {
     margin: 20px 0px;
     margin-top: -40px;
