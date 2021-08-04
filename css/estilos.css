@@ -501,7 +501,7 @@ figure {
   height: 0;
   padding-top: 56.25%;
   /*calculo de h*100/w= 56.25% */
-  background: transparent;
+  /*background: transparent;*/
   position: relative;
 }
 
