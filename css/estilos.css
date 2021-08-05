@@ -64,7 +64,6 @@ valores */
 
 body {
     font-family: Arial, 'source sans pro', sans-serif;
-    margin: 0;
 }
 
 h1,
@@ -108,11 +107,7 @@ h2 {
 
 .hero {
     height: 300px;
-    /*background-image: url('../images/hero.jpg'); */
     background-color: #1b2127;
-    /* background-size: 500px 300px; */
-    /* background-repeat: no-repeat; */
-    /* background-position-x: right; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,30 +120,12 @@ h2 {
 .portafolio {
     background: #fafafa;
     padding: 20px;
-    /*background: red;*/
 }
 
 .project {
-    /* border-top: 10px solid red;
-    border-right: 10px solid green;
-    border-left: 10px solid orange;
-    border-bottom: 10px solid pink;
-    */
-    /*border-color: blue; */
-    /*border-top-color: red;
-    border-width: 15px;
-    border-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
-    /* border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    /* margin: 10px;*/
     margin-bottom: 15px;
-    /* margin-right
-    margin-left
-    margin-top  */
     padding: 20px;
     background: white;
     display: flex;
@@ -293,7 +270,7 @@ figure {
    /* border: 1px solid red; */
    /* margin: 10px; */
    /* width: 480px; */
-    margin: 10px;   /* 1% para el reponsive design */
+    /*margin: 10px;   /* 1% para el reponsive design */
     width: 480px;   /* 48% para el reposive design    */
    /* flex-shrink: 0; */
     border-radius: 10px;
@@ -458,7 +435,8 @@ figure {
       padding: 2em;
     }
     .hero-image {
-      position: absolute;
+      position: relative;
+      border-radius: 10px;
       z-index: 1;
       left: 0;
       right: 0;
@@ -471,19 +449,18 @@ figure {
       font-size: 2em;
       z-index: 2;
     }
-}
-
-.html-video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;  
-  width: 97%;
-  border-radius: 10px;
-  height: 100%;
+    
+    .html-video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;  
+      width: 97%;
+      border-radius: 10px;
+      height: 100%;
 /*  max-width: 100%; */
-}
+    }
 .flexible-html {
     width: 100%;
     /* height: 500px; */
@@ -519,6 +496,26 @@ figure {
   /*background: transparent;*/
   position: relative;
 }
+.social {
+    margin-left: 0;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .event {
+        width: 100%;
+    }
+    .event img {
+        width: 840px;
+        height: auto;
+    }
+    .contact {
+        width: 750px;
+    }
+    .footer {
+        width: 850px;
+    }
+}
 
 @media screen and (max-width: 767px) {
 
@@ -531,14 +528,17 @@ figure {
    .hero {
      height: auto;
      position:relative;
+     width: 800px;
    }
    .hero-image {
-     position: absolute;
+     position: relative;
+     border-radius: 10px;
      z-index: 1;
      left: 0;
      right: 0;
      top: 0;
      bottom: 0;
+     width: 100%;
    }
    .h1 {
      font-size: 2em;
@@ -588,6 +588,10 @@ figure {
 
     }
 
+    .portafolio {
+        width: 830px;
+    }
+
     .project {
         display: block;
     }
@@ -624,10 +628,11 @@ figure {
        display: block;
    }*/
    .event {
-    width: auto;
+    width: 100%;
     flex-shrink: initial;
     /* flex-shrink: 1; */
    }
+   
    .event-img {
       /* width: auto; */
       width: 100%;
@@ -637,6 +642,9 @@ figure {
        /* 1em = 16px */
        margin: -2em .5em .5em;
        padding: 1em;
+   }
+   .contact {
+       width: 750px;
    }
 }
 
