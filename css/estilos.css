@@ -592,6 +592,9 @@ figure {
     .portafolio {
         width: 830px;
     }
+    .container h2 {
+        font-size: 2em;
+    }
     
     .project {
         display: block;
