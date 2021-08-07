@@ -621,9 +621,9 @@ figure {
     .project-date {
         font-style: 1em;
     }
-   .project-description {
+   /*.project-description {
         font-size: .8em;
-   }
+   }*/
    /*.event-list {
        display: block;
    }*/
