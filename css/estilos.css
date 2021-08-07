@@ -117,10 +117,6 @@ h2 {
     object-fit: cover;
     border-radius: 10px;
 }
-.container h1 {
-    font-size: 4.0em;
-    z-index: 2;
-}
 
 .portafolio {
     background: #fafafa;
@@ -545,8 +541,8 @@ figure {
      bottom: 0;
      width: 100%;
    }
-   .h1 {
-     font-size: 2em;
+   .container h1 {
+     font-size: 4.0em;
      z-index: 2;
    }
 
