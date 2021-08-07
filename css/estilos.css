@@ -591,6 +591,9 @@ figure {
     .portafolio {
         width: 830px;
     }
+    .project-course {
+        font-size: 1.5em;
+    }
 
     .project {
         display: block;
