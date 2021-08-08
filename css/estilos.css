@@ -542,7 +542,7 @@ figure {
      width: 100%;
    }
    .container h1 {
-     font-size: 3.0em;
+     font-size: 4.0em;
      z-index: 2;
    }
 
@@ -593,7 +593,7 @@ figure {
         width: 830px;
     }
     .container h2 {
-        font-size: 2em;
+        font-size: 4em;
     }
     
     .project {
@@ -609,25 +609,24 @@ figure {
         width: auto;
        /* font-size: 10px; */
     }
-    .project-course, .project-date, .project-url {
+    .project-course, .project-date, .project-url .h4 {
         margin: .3em 0;
+        font-size: 3em;
     }
-    .project-title {
-        font-size: 1.5em;
+    .project-title h3{
+        font-size: 3.5em;
         margin-bottom: .3em;
     }
     .project-url {
-        font-size: 1em;
+        font-size: 2.5em;
     }
-    .project-course {
-        font-size: 1.5em;
-    }
+    
     .project-date {
         font-style: 1em;
     }
-   /*.project-description {
-        font-size: .8em;
-   }*/
+   .project-description {
+        font-size: .2.0em;
+   }
    /*.event-list {
        display: block;
    }*/
