@@ -611,10 +611,10 @@ figure {
     }
     .project-course, .project-date, .project-url .h4 {
         margin: .3em 0;
-        font-size: 3em;
+        font-size: 3.0em;
     }
     .project-title h3{
-        font-size: 3.5em;
+        font-size: 4.0em;
         margin-bottom: .3em;
     }
     .project-url {
@@ -622,9 +622,9 @@ figure {
     }
     
     .project-date {
-        font-style: 1em;
+        font-style: 1.0em;
     }
-   .project-description {
+   .project-description p{
         font-size: 3.0em;
    }
    /*.event-list {
