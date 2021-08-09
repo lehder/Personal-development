@@ -657,6 +657,8 @@ figure {
    }
    .event-detail h3 {
        font-size: 3.5em;
+   }.event-description {
+       font-size: 3.0em;
    }
    .contact {
        width: 850px;
