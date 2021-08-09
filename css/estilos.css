@@ -641,6 +641,9 @@ figure {
     flex-shrink: initial;
     /* flex-shrink: 1; */
    }
+   .event-list-title strong {
+       color: black;
+   }
    
    .event-img {
       /* width: auto; */
@@ -651,6 +654,9 @@ figure {
        /* 1em = 16px */
        margin: -2em .5em .5em;
        padding: 1em;
+   }
+   .event-detail h3 {
+       font-size: 3.5em;
    }
    .contact {
        width: 850px;
