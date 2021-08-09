@@ -592,8 +592,11 @@ figure {
     .portafolio {
         width: 830px;
     }
+    .portafolio h2 strong {
+        color: black;
+    }
     .container h2 {
-        font-size: 4em;
+        font-size: 4.0em;
     }
     
     .project {
@@ -624,12 +627,15 @@ figure {
     .project-date {
         font-style: 1.0em;
     }
-   .project-description p{
-        font-size: 3.0em;
+   .project-description {
+        font-size: 3.5em;
    }
    /*.event-list {
        display: block;
    }*/
+   .container h2 strong {
+       color: black;
+   }
    .event {
     width: 100%;
     flex-shrink: initial;
