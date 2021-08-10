@@ -507,6 +507,12 @@ figure {
 }
 
 @media screen and (max-width: 900px) {
+    .header {
+        width: 910px;
+    }
+    .hero {
+        width: 840px;
+    }
     .event {
         width: 100%;
     }
@@ -533,7 +539,7 @@ figure {
    .hero {
      height: auto;
      position:relative;
-     width: 870px;
+     width: 900px;
    }
    .hero-image {
      position: relative;
