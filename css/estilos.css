@@ -61,8 +61,8 @@ valores */
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     /*box-sizing: border-box;*/
 }
 
@@ -533,7 +533,7 @@ figure {
    .hero {
      height: auto;
      position:relative;
-     width: 860px;
+     width: 870px;
    }
    .hero-image {
      position: relative;
@@ -594,7 +594,7 @@ figure {
     }
 
     .portafolio {
-        width: 830px;
+        width: 894px;
     }
     .portafolio h2 strong {
         color: black;
@@ -649,9 +649,9 @@ figure {
        color: black;
    }
    
-   .event-img {
+   .event img {
       /* width: auto; */
-      width: 100%;
+      width: 920px;
      /* height: auto; */
    }
    .event-detail {
@@ -663,6 +663,12 @@ figure {
        font-size: 3.5em;
    }.event-description {
        font-size: 3.0em;
+   }
+   .youtube-video {
+       width: 920px;
+   }
+   .html-video {
+       width: 920px;
    }
    .contact {
        width: 850px;
